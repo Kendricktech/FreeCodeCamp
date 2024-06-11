@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>  
+              <h1 id="title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde possimus reiciendis de</h1>
+              <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio impedit nostrum alias reiciendis consequatur nobi</p>
+        </header>
+        <main>
+            <section>
+                <form action="" method="post" id="survey-form">
+                    <fieldset>
+                        <label for="name" id="name-label">NAME
+                            <input class="input-text input" type="text" name="name" id="name" placeholder="John Doe">
+                        </label>
+                        <label for="email" id="email-label">EMAIL
+                            <input class="input input-text" type="email" name="email" id="email" placeholder="JohnDoe@example.com">
+                        </label>
+                        <label for="number" id="number-label">NUMBER
+                            <input class="input-text input" type="tel" name="number" id="number" pattern="[0-9]" minlength="8" maxlength="14" placeholder="123456789">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="dropdown" class="input">Select an option:
+                            <select name="options" id="dropdown" class="input input-text">
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Would you recommend Fastlink communications to a friend?</legend>
+                        <label for="yes" class="input">Yes
+                            <input type="radio" name="recommend" id="yes" value="yes">
+                        </label>
+                        <label for="no" class="input">No
+                            <input type="radio" name="recommend" id="no" value="no">
+                        </label>
+                        <label for="maybe" class="input">Maybe
+                            <input type="radio" name="recommend" id="maybe" value="maybe">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What best describes your current condition?</legend>
+                        <label for="student" class="input">Student
+                            <input type="checkbox" name="condition" id="student" value="student">
+                        </label>
+                        <label for="worker" class="input">Worker
+                            <input type="checkbox" name="condition" id="worker" value="worker">
+                        </label>
+                        <label for="lawyer" class="input">Lawyer
+                            <input type="checkbox" name="condition" id="lawyer" value="lawyer">
+                        </label>
+                        <label for="runner" class="input">Runner
+                            <input type="checkbox" name="condition" id="runner" value="runner">
+                        </label>
+                        <label for="soldier" class="input">Soldier
+                            <input type="checkbox" name="condition" id="soldier" value="soldier">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="comments">Comments:
+                            <textarea class="input-text input" name="comments" id="comments" cols="30" rows="10" placeholder="comments"></textarea>
+                        </label>
+
+                        <input type="submit" id="submit">
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

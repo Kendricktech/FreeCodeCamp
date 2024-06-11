@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+   
+    box-sizing: border-box;
+}
+
+body {
+    background-color: royalblue;
+    color: white;
+}
+p,h1{
+    text-align: center;
+}
+section {
+   
+    margin: auto;
+    max-width: 400px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    background-color: rgb(32, 23, 36);
+}
+
+form {
+    line-height: 1.15;
+}
+
+.input {
+    margin: 1.25rem 0;
+    display: block;
+    padding: 0;
+   
+}
+input{
+     color: rgb(32,23,36);
+    background-color: white;
+    border: 1px solid black;
+    border-radius:5%;
+    
+}
+
+.input-text {
+    width: 100%;
+}
+label,input[type="radio"],input[type="checkbox"]{
+    vertical-align: middle;
+}
+fieldset{
+    border: none;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 100%;
+    color: #f6f6f6;
+    background-color:rgb(32, 23, 36);
+    border: 1px solid white;
+}
